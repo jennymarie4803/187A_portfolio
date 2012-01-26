@@ -71,12 +71,22 @@ body {
 
 	
 /*
-					<footer>
-					<ul class="breadcrumb">
-					<li><a href="#">Home</a> <span class="divider">/</span></li>
-  					<li class="active">You are here</li>
-					</ul>
-					</footer>
+<form action="">  
+	<div class="span8">
+		<div class="row">
+			<div class="clearfix"><input class="span3" id="" name="" type="text" placeholder="Type name here" /></div>
+		</div>
+		<div class="row">
+			<div class="actions">
+          	<button type="submit" class="btn primary">Save changes</button>&nbsp;<button type="reset" class="btn">Cancel</button>
+        	</div>
+		</div>
+  	</div>
+
+        <div class="actions">
+          <button type="submit" class="btn primary">Save changes</button>&nbsp;<button type="reset" class="btn">Cancel</button>
+        </div>
+</form>
 */
 	
 	
