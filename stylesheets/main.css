@@ -15,12 +15,7 @@ img.banner	{
 			
 ul.media-grid	{
 				}
-
-div.main-content	{
-					}
-
-div.footer	{
-			}
+					
 
 h1	{
 	}
@@ -30,6 +25,62 @@ h2	{
 
 h3	{
 	}
+	
+
+footer span	{
+				margin-right: 20px;
+			}
+
+
+	
+div.footer	{
+			}
+
+html,
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+/* #header {				/*pushing down on the footer*/
+/*  background:#ff0; */
+/*   padding:20px; 
+}*/
+#body {					/* Where my content is pasted */
+   padding:10px;
+   padding-bottom:10px;   /* Height of the footer */
+/*	background: #0f0;		/*green*/
+}
+#footer {				
+   position:absolute;
+   bottom:-120px;
+   width:100%;
+   height:60px;   /* Height of the footer */
+/*   background:#6cf;		/*blue*/
+}	
+#container {
+   height:100%;
+}	
+
+
+
+	
+/*
+					<footer>
+					<ul class="breadcrumb">
+					<li><a href="#">Home</a> <span class="divider">/</span></li>
+  					<li class="active">You are here</li>
+					</ul>
+					</footer>
+*/
+	
+	
+	
 			
 /* Things to accomplish:
 	fix alignment of nav bar
