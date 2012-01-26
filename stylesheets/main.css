@@ -3,6 +3,12 @@ body {	background-image:url('../images/WebConcept2.png');	/* fix this- the size 
 		background-repeat:no-repeat;
 	}
 
+.container-fluid {
+  position: relative;
+  min-width: 940px;
+  zoom: 1;
+}
+
 img.banner	{
 				width: 100%;
 			}
@@ -16,6 +22,14 @@ div.main-content	{
 div.footer	{
 			}
 
+h1	{
+	}
+	
+h2	{
+	}	
+
+h3	{
+	}
 			
 /* Things to accomplish:
 	fix alignment of nav bar
@@ -26,5 +40,10 @@ div.footer	{
 		round the corners of the images
 	add a background color behind the main content
 		round the corners of the content box
+	add a background color behind the footer
+		round the corners of the content box
+	reformat the headers
+	reformat all the text
+	align h3 into the tree
 	
 */
