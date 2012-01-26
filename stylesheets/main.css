@@ -1,0 +1,30 @@
+body {	background-image:url('../images/WebConcept2.png');	/* fix this- the size is still kind of off */
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+
+img.banner	{
+				width: 100%;
+			}
+			
+ul.media-grid	{
+				}
+
+div.main-content	{
+					}
+
+div.footer	{
+			}
+
+			
+/* Things to accomplish:
+	fix alignment of nav bar
+		fix colors of nav bar
+		add drop shadows?
+	make sure background is correctly placed/sized
+	do something with the media grid
+		round the corners of the images
+	add a background color behind the main content
+		round the corners of the content box
+	
+*/
