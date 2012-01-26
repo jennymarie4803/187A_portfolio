@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Generic Project Page</title>
-    <meta name="description" content="something good should go here">
-    <meta name="author" content="your name should go here">
+    <title>My Body of Work</title>
+    <meta name="description" content="A portfolio of my body of work">
+    <meta name="author" content="Jenny Lyons">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -28,33 +28,141 @@
 
     <!-- Your Javascripts -->
     <script src="../javascripts/main.js"></script>
+
   </head>
 
+
+
+
   <body>
-    <div class="container">
 
-      <div class="row">
+	<img src="../images/banner2.png" class="banner" />
 
-        <div class="span2">
-          WRITE
-        </div>
+  <div class="container-fluid">		<!-- fluid container -->
 
-        <div class="span2">
-          ABOUT
-        </div>
+    <div class="sidebar">     		<!-- SIDEBAR -->
+      	<div class="row span6">
+			<ul class="media-grid">
+ 			 <li>
+       			<a class="fancybox" href="../images/fulls/TridentPlain.jpg" data-fancybox-group="gallery" title="Client: UCSD Sailing Team">				
+				<img src="../images/thumbs/TridentPlain.jpg" alt="COGS187" />
+				</a>
+			  </li>
+		   	  <li>
+          		<a class="fancybox" href="../images/fulls/cssa.jpg" data-fancybox-group="gallery" title="Client: Cognitive Science Student Association">
+				<img src="../images/thumbs/cssa.jpg" alt="COGS187" />
+				</a>
+				</li>
+				</ul>
+		</div>
+		
+		<div class="row">
+			<div class="span6">
+			<ul class="media-grid">
+ 			<li>
+          		<a class="fancybox" href="../images/fulls/IMG_1571_2.jpg" data-fancybox-group="gallery" title="Client: Milk and Roses Cake Designs">
+				<img src="../images/thumbs/IMG_1571_2.jpg" alt="COGS187" />
+				</a>
+			</li>
+			</ul>
+		</div>
+		</div>
+    </div>									<!-- end SIDEBAR -->
+	
 
-        <div class="span2">
-          A PROJECT
-        </div>
 
-        <div class="span10">
-          <h2>Example Image Gallery</h2>
-          <a class="fancybox" href="../images/187.jpg" data-fancybox-group="gallery" title="COGS 187"><img src="../images/187.jpg" alt="COGS187" /></a>
-          <a class="fancybox" href="../images/187.jpg" data-fancybox-group="gallery" title="COGS 187"><img src="../images/187.jpg" alt="COGS187" /></a>
-        </div>
+    <div class="content span10 offset8">	<!-- MAIN CONTENT -->
+		<div class="row">					<!-- nav bar -->
+		<ul class="tabs">	
+  		<li><a href="../index.html">Home</a></li>
+ 		<li><a href="about.html">About</a></li>
+ 		<li class="active"><a href="project_page.html">Gallery</a></li>
+ 		<li><a href="contact.html">Contact</a></li>
+  		<li><a href="http://beta.thiscourse.com/ucsd/cogs187a/wi12/">Class Site</a></li>
+		<!--<li><a href="#">Other Intrests</a></li>-->
+		</ul>
+		</div>								<!-- end nav bar -->
 
-      </div> <!-- end row -->
+		<div class="row span10">			<!-- home page main content -->
+			<div class="span10 offset1 main-content">
+<!-- end of copied text -->				
+			<h1><em>Gallery</em></h1>
+				<form name="slidecontrols">
+					<table border="0">
+					<tr> <!-- This is where the pictures go -->
+					<td>
+						<a class="fancybox" href="../images/fulls/cg3sdj-logo.jpg" data fancybox-group="gallery" title="Send carrier pigeons!">
+						<img	src="../images/thumbs/cg3sdj-logo.jpg"
+								name="slideframe"
+								alt="Slide show images appear here."
+								border="5"
+								bordercolor="white"
+			 			/>
+						</a>
+					</td>
+					</tr>
+			
+					<tr> <!-- This is where the captions go -->
+					<td><form name="slidecontrols">
+						<p>
+							<textarea	name="caption"
+										rows="2"
+										cols="25"> This logo was for the website of a ckae decorating business called Milk and Roses
+							</textarea>
+						</p>
+					</td>
+					</tr>	
+							
+					<tr> <!-- This is where the buttons go -->
+					<td> 	<input	type="button"
+									value="Previous Slide" 
+									onclick="showSlide('previous');" />
+						
+									<input	type="button"
+									value="Next Slide"
+									onclick="showSlide('next');" />
+					</td>								</tr>
+			
+					<tr> <!-- This is where the slide numbers go -->
+					<td>
+						Slide Number: <input	type="text"
+												value="1"
+												name="currentslide"
+												size="5"
+												class="span1" />
+					</td>	
+						</tr>
+				</table>
+			</form>
+<!-- end of copied text -->
+			</div>
+		</div>								<!-- end home page main content -->
 
-    </div> <!-- end container -->
+		<div class="row span11 offset1"> <!-- footer-->
+			<div id="container">
+  				<!--<div id="header"></div>-->
+				<div id="body"></div>
+   				<div id="footer">
+					<footer>
+						<div class="footer-text">
+						<span>Jenny Lyons</span>
+						<span>jennymarie4803@gmail.com</span>
+						<span>(858) 555-1089</span>
+						</div>
+					<ul class="breadcrumb">
+					<li><a href="../index.html">Home</a> <span class="divider">/</span></li>
+  					<li><a href="project_page.html">Gallery</a> <span class="divider">/</span></li>
+					<li class="active">You are here</li>
+					</ul>
+					</footer>
+				</div>
+			</div>
+			
+		</div>								<!-- end footer-->
+		
+    </div>									<!-- end MAIN CONTENT -->
+
+  </div>									<!-- fluid container -->	
+
   </body>
 </html>
