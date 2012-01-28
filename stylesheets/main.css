@@ -17,14 +17,15 @@ ul.media-grid	{
 				}
 					
 
-h1	{
+h1	{	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 30px;
+		font-style: italic;
 	}
 	
-h2	{
+h2	{	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 20px;
 	}	
 
-h3	{
-	}
 	
 
 footer span	{
@@ -82,8 +83,5 @@ body {
 		round the corners of the content box
 	add a background color behind the footer
 		round the corners of the content box
-	reformat the headers
-	reformat all the text
-	align h3 into the tree
 	
 */
